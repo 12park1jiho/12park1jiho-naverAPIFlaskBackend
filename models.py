@@ -7,8 +7,8 @@ import requests
 import datetime
 import json
 
-CLIENT_ID = "PnfJSQbzGHzV1Ngdefmm"
-CLIENT_SECRET = "4ACw8JKmQ6"
+CLIENT_ID = "CLIENT_ID"
+CLIENT_SECRET = "CLIENT_SECRET"
 
 # 트렌드 예측 모델 학습 (통합 검색어 트렌드 API 및 쇼핑인사이트 API)
 def train_trend_model(trend_data, shopping_data):

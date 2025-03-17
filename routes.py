@@ -4,8 +4,8 @@ from flask import jsonify, request
 import requests
 import base64
 from models import train_recommendation_model
-CLIENT_ID = "PnfJSQbzGHzV1Ngdefmm"
-CLIENT_SECRET = "4ACw8JKmQ6"
+CLIENT_ID = "CLIENT_ID"
+CLIENT_SECRET = "CLIENT_SECRET"
 
 def predict_trend(trend_model):
     if trend_model:
